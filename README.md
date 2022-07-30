@@ -22,7 +22,7 @@ We are using the "LoanStats_2019Q1.csv" as our dataset. In this section, we want
     4. Print out the imbalanced classification report
 ### Oversampling Techniques:
 #### RandomOverSampler:
-image.png
+
 #### SMOTE: 
 
 ### Undersampling Technique: 
