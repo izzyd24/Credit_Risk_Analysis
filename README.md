@@ -22,15 +22,16 @@ We are using the "LoanStats_2019Q1.csv" as our dataset. In this section, we want
     4. Print out the imbalanced classification report
 ### Oversampling Techniques:
 #### RandomOverSampler:
-
+oversampling-naive.gif
 #### SMOTE: 
-
+oversampling-SMOTE.gif
 ### Undersampling Technique: 
 #### ClusterCentroids: 
-
+undersampling-CC.gif
 ### Results:
 
 ## D2: SMOTEENN Algo to Predict (Credit Risk) 
+combo-SMOTE EEN.gif
 ### Results:
 ## D3: Ensemble Classifiers to Predict (Credit Risk)
 #### Balanced Random Forest Classifier:
