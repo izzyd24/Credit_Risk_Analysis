@@ -11,18 +11,22 @@ Ultimately, our goal here is to compare the two new ML models that ideally reduc
 ### First Steps: 
 We are using the "LoanStats_2019Q1.csv" as our dataset. In this section, we want to determine which ML model is better at predicting credit risk (evaluation stage).
 ### General Process:
-Here is the approach we take for each resampling od the dataset:
-    1. View count of target classes
-    2. Train a logistic regression classifier
-    3. Calculate balanced accuracy score
-    4. Generate the confusion matrix 
-    5. Provide a classification report
+#### Train/Target Steps:
+    1. Create training variables, convert string to numerical with get_dummies()
+    2. Create target variables
+    3. Check the balance of our target variables, before resampling
+#### Resampling Data Steps: 
+    1. Use logisticregression classifier to make predictions, evaulate performance of each model 
+    2. Calculate the accuracy score of each model
+    3. Generate the confusion matrix
+    4. Print out the imbalanced classification report
 ### Oversampling Techniques:
 #### RandomOverSampler:
 #### SMOTE: 
 ### Undersampling Technique: 
 #### ClusterCentroids: 
 ### Results:
+
 ## D2: SMOTEENN Algo to Predict (Credit Risk) 
 ### Results:
 ## D3: Ensemble Classifiers to Predict (Credit Risk)
